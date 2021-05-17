@@ -1,0 +1,249 @@
+header{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.menu_ambur{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;  
+}
+.container_main{
+    margin-top: 10px;
+    background-image: url(http://cilad.tpsdev.com/wp-content/uploads/2021/03/HANDS-COLOR-FOR-MOBILE-1.png); 
+    border-radius: 10%;
+    justify-items: center;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.textpic{
+    z-index: 1;
+    font-size: 48px;
+    color: #DB4700;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+.button_of_pic{
+    background-color:#DB4700 ;
+    border-radius: 10px;
+    width: 128px;
+    height: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: white;
+    Font-weight:bold;
+    align-items: center;
+    justify-content: center;
+}
+.style_buttom{
+    display: flex;
+    width: 300px;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products_container{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;  
+}
+.pic-space{
+    display: flex;
+}
+.products_pic{
+    width:158px;
+    height: 158px;
+    background-color:#A7A7A7;
+    margin-top: 30px;
+}
+.type_products{
+   font-size:10px ;
+   color: #A7A7A7;
+}
+.name_products{
+    font-size:14px ;
+    color: #000000;
+}
+.price_style{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+div .price:nth-of-type(2){
+    margin-left: 10px;
+}
+.price{
+    color: #DB4700;
+    font-size:14px ;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.own_saler{
+    font-size: 10px;
+    color: #000000;
+}
+.center-btn-shopall{
+    display: flex;
+    justify-content: space-around;
+}
+.container-bottom{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.text-bottom{
+    font-weight: bold;
+   text-align: center;
+}
+.container-bottom-main{
+    border: 3px solid black;
+    padding: 10px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    background-color: pink;
+}
+#main_logo_pic{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid black;
+   
+}
+.container-bottom-center{
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+}
+.container-bottom-centerin{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+#pic_petshop{
+    width: 185px;
+    height: 185px;
+}
+.cat2pic{
+    width: 80px;
+    height: 80px;
+    padding-top: 5px;
+}
+.text-explain{
+    font-weight: bold;
+   text-align: center;
+   width: 272px;
+   height: 138px;
+   line-height: 22.33px;
+}
+.btn_shop_artist{
+    background-color:#000000;
+    border-radius: 6px;
+    width: 156px;
+    height: 31px;
+    margin-bottom: 20px;
+    color: white;
+    Font-weight:bold;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (min-width:1024px)
+{
+    .container{
+        justify-content: space-evenly; 
+    }
+    .button_of_pic{
+        width: 10rem;
+        height:4rem;
+     }
+     .style_buttom{
+        width:30rem;
+    }
+    .text-bottom{
+        font-size: 2rem;
+    }
+    #main_logo_pic{
+        width: 10rem;
+        height:10rem;
+    }
+    #pic_petshop{
+        width: 30rem;
+        height: 30rem;
+    }
+    .textpic{
+        color:white;
+    }
+    .main-container{
+        justify-content: space-evenly; 
+     }
+    .products_pic{
+        width: 15rem;
+        height: 15rem;
+        margin-top: 5rem;
+    }
+    .type_products{
+        font-size: 1.2rem;
+    }
+    .price{
+        font-size: 1.2rem;
+    }
+    .name_products{
+        font-size: 1.2rem;
+    }
+    .own_saler{
+        font-size: 1.2rem;
+    }
+    .cat2pic{
+        width: 14rem;
+        height: 14rem;
+        padding-top: 1.3rem;
+    }
+    .text-explain
+    {
+        font-size: 2rem;
+        width: 40rem;
+        height: 15rem;
+        line-height: 2.5rem;
+        padding-top: 3rem;
+    }
+    .btn_shop_artist{
+    border-radius: 6px;
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    }
+    .container-bottom-centerin{
+        margin-top: -2rem;
+    }
+}
